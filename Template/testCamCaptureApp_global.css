@@ -1,0 +1,33 @@
+
+._global_style_
+{
+	font-size: 12px !important;
+	font-family: courier !important;
+	text-size-adjust: none !important;
+
+}
+
+.global_resp
+{
+	/* global_resp 는 body 에 추가된 클래스 입니다. */
+
+}
+
+/*가로모드*/
+@media screen and (orientation: landscape)
+{
+	.global_resp
+	{
+	}
+}
+
+/*ios*/
+@supports (-webkit-overflow-scrolling: touch)
+{
+}
+
+/*tablet*/
+@media screen and (min-width:641px)
+{
+}
+

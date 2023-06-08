@@ -1,0 +1,45 @@
+<div data-base="AView" data-class="testPage01" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(239, 239, 239); position: absolute;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AVideo&quot;,&quot;AGridLayout&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AFlexLayout&quot;,&quot;ADropBox&quot;]}"><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" id="testPage01--cameraView">
+        <video data-base="AVideo" data-class="AVideo" class="AVideo-Style" autoplay="" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; background-color: rgb(255, 255, 255);" id="testPage01--camVideo"></video>
+    </div><div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: calc((100% - 60px) - 150px); position: absolute; left: 0px; top: 60px; background-color: rgba(0, 0, 0, 0);" data-sgap-height="1" id="testPage01--gridLayout">
+        <table cellpadding="0" cellspacing="0">
+            <colgroup>
+                <col width="">
+                <col width="300px">
+                <col width="">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td colspan="3" class="" style=""><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.6);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; font-size: 25px; color: rgb(255, 255, 255); text-align: center; bottom: 20px;">촬영하기</label>
+                        </div>
+                    </td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                </tr>
+                <tr>
+                    <td class="" style="height: 300px;"><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.6);"></div>
+                    </td>
+                    <td class="" style="height: 300px;"><div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); width: 100%;" id="testPage01--captureView"></div>
+                    </td>
+                    <td class="" style="height: 300px;"><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.6); margin-top: 0px; margin-left: 0px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="" style=""><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.6);"></div>
+                    </td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: absolute; height: 60px; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.6);" id="testPage01--headerView"></div><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 150px; position: absolute; bottom: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.6); z-index: 2; text-align: left;" id="testPage01--borderView">
+        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: calc(50% - 25px); background-color: rgb(255, 255, 255); border-radius: 100px; border-width: 1px; border-color: rgb(205, 205, 205); bottom: 20px;" data-center-x="true" id="testPage01--camBtn" data-listener-click="testPage01:onCamBtnClick"></button><div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: auto; height: auto; position: absolute; left: calc(50% - 133px); top: 20px; align-content: flex-start; align-items: stretch; text-align: left; color: rgb(255, 255, 255);" data-center-x="true"><div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 20px; margin-right: 10px;">카메라 선택</label>
+            </div><div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;"><div data-base="ADropBox" data-class="ADropBox" class="ADropBox-Style" style="width: 140px; height: 30px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); font-size: 20px; color: rgb(255, 255, 255); text-decoration-color: rgb(255, 255, 255); font-weight: normal;" id="testPage01--selectBox" data-listener-select="testPage01:onSelectBoxSelect">
+                    <input type="text" class="dropbox_label" readonly="readonly" value="JAVA" placeholder="카메라 선택">
+                    <span class="dropbox_button"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
